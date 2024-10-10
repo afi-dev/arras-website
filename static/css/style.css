@@ -63,6 +63,7 @@ body {
 nav {
     background-color: #333;
     height: 50px;
+    margin-bottom: 35px;
 }
 
 .nav-link {
@@ -73,4 +74,44 @@ nav {
 .links {
     justify-content: space-around;
     display: flex;
+}
+
+.event-flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    padding: 15px;
+    width: 500px;
+    margin: 20px;
+    border-radius: 5px;
+    background-color: #d8d5d5;
+}
+
+.card h2 {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.content {
+    padding: 15px;
+    columns: 2;
+}
+
+.card img {
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    transition: all .2s;
+}
+
+.card img:hover {
+    transform: scale(1.05);
+}
+
+.content p {
+    text-align: justify;
 }
