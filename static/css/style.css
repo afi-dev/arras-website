@@ -61,21 +61,47 @@ body {
     font-family: 'Lexend', sans-serif;
 }
 
-navbar {
-    background-color: white;
-    padding: 10px 20px 10px 20px;
-    display: flex;
-    align-items: center;
-    gap: 1.2rem;
-    justify-content: space-between;
+nav {
+    color: white;
+    background-color: #333;
 }
 
+nav div {
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1280px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0px 1.2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #da0057;
+}
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1.2rem;
-    padding: 1.2rem;
 }
 
 .grid-card {
@@ -127,7 +153,7 @@ navbar {
     text-overflow: ellipsis;
     white-space: nowrap;
     font-weight: 700;
-    margin-bottom: 0.4rem;
+    padding-bottom: 0px;
 }
 
 .grid-card-content p {
@@ -140,6 +166,7 @@ navbar {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
+    margin-top : 10px;
 
 
 }
@@ -148,6 +175,23 @@ navbar {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-    padding: 1.2rem 1.2rem;
+    padding: 5.2rem 1.2rem 5.2rem 1.2rem;
 
+}
+
+.selected-link {
+    color: #da0057;
+}
+
+.main-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1.2rem;
+    text-align: center;
 }
