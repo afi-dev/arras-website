@@ -195,3 +195,14 @@ footer {
     padding: 1.2rem;
     text-align: center;
 }
+
+section {
+    padding: 0rem 2.2rem 2.2rem 0rem;
+}
+
+section p {
+    padding-bottom: 1.2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 500;
+}

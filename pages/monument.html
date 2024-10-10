@@ -3,20 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./../static/css/style.css">
-    <link rel="icon" type="image/x-icon" href="./../static/images/favicon.ico">
-    <title>Ville d'Arras — Monument</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="icon" type="image/x-icon" href="../static/images/favicon.ico">
+    <title>Ville d'Arras — Accueil</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul class="links">
-                <li><a href="../index.html" class="nav-link">Accueil</a></li>
-                <li><a href="history.html" class="nav-link">Histoire d'Arras</a></li>
-                <li><a href="monument.html" class="nav-link">Monuments et lieux d'intérêt</a></li>
-                <li><a href="event.html" class="nav-link">Evénements culturels</a></li>
+            <div>
+            <img src="../static/images/logo.png" alt="Ville d'Arras">
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="./history.html">Histoire d'Arras</a></li>
+                <li><a class="selected-link" href="./monument.html">Monuments</a></li>
+                <li><a href="./events.html">Evenement Culturel</a></li>
             </ul>
+            </div>
         </nav>
     </header>
+    <main class="content">
+        <h1 class="main-title">Découvrez Arras et ses monuments</h1>
+        <div>
+            Monument ici
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ville d'Arras. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
