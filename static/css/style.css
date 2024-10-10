@@ -62,7 +62,7 @@ body {
 
 nav {
     background-color: #333;
-    height: 50px;
+    height: 70px;
     margin-bottom: 35px;
 }
 
@@ -74,8 +74,16 @@ nav {
 .links {
     justify-content: space-around;
     display: flex;
+    font-size: large;
 }
 
+.links a {
+    transition: all .2s;
+}
+
+.links a:hover {
+    color: #f73e28;
+}
 .event-flex {
     display: flex;
     justify-content: center;
