@@ -149,9 +149,11 @@ navbar {
     width: 100%;
     margin: 0 auto;
     padding: 1.2rem 1.2rem;
-
 }
 
+.content p {
+    margin-right: 40px
+}
 nav {
     background-color: #333;
     height: 70px;
@@ -214,4 +216,15 @@ nav {
 
 .content p {
     text-align: justify;
+}
+
+.history-title {
+    font-size: 40px;
+    margin: 30px;
+    text-align: center;
+}
+
+.text {
+    font-size: 12px;
+    margin: 0  500px 500px 500px;
 }
