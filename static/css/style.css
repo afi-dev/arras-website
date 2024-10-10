@@ -206,3 +206,66 @@ section p {
     line-height: 1.5;
     font-weight: 500;
 }
+
+.card-grid-monument {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.2rem;
+}
+
+.card-monument {
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    min-height: 420px;
+}
+
+.card-monument img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .4s;
+}
+
+.card-monument img:hover {
+    transform: scale(1.1);
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .4s;
+}
+
+.card-monument-content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-monument-content h2 {
+    padding: 14px 19px 0px 19px;
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    padding-bottom: 0px;
+}
+
+.card-monument-content p {
+    padding: 0px 19px 19px 19px;
+    font-size: 0.9rem;
+    color: white;
+    line-height: 1.2;
+    font-weight: 500;
+
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    margin-top : 10px;
+}
