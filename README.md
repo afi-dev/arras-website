@@ -1,12 +1,34 @@
-# Projet EPSI — Site de la Ville d'Arras
+# EPSI Project — Ville d'Arras Website
 
-Bienvenue sur le site non officiel de la ville d'Arras. Ce site a été conçu dans le cadre d'un petit projet de groupe pour apprendre à utiliser Git et GitHub en équipe, comprendre la gestion des branches et des conflits de fusion en travaillant sur un projet collaboratif de création d’un site web simple sur la ville d’Arras.
+Welcome to the unofficial Arras city website. This project was created as part of a group assignment to practice using Git and GitHub effectively in a team environment. The primary goal of this project is to learn Git branching, merging conflicts, and collaborating using pull requests, rather than building a fully functional website.
 
-## Contexte du projet :
-Nous devons collaborer en petits groupes (2 ou 3 personnes) pour créer un site web qui présente la ville d’Arras.
-Le site sera composé de plusieurs sections :
+## Project Overview
 
-- **Page d'Accueil** : Restez informé des dernières nouvelles et événements à Arras.
-- **Histoire de la ville** : Découvrez l'histoire de la ville et ses attraits touristiques.
-- **Monuments et lieux d'intérêt** : Découvrez les lieux à visiter.
-- **Événements culturels** : Informations sur les événements culturels de la ville d'Arras.
+This is a small HTML/CSS-based project where we created a simple website showcasing the city of Arras. The site includes various sections about the city and is designed to provide basic information. The focus of this project is not on the content or functionality of the site, but on practicing Git workflows.
+
+### Sections of the Website:
+
+- **Home Page**: Stay updated with the latest news and events in Arras.
+- **History of the City**: Learn about the city's history and its tourist attractions.
+- **Monuments and Points of Interest**: Discover must-visit landmarks and sites.
+- **Cultural Events**: Information about cultural events in Arras.
+
+## Purpose of the Project
+
+This project was not about creating a fully functional or professional website, but rather an exercise in:
+
+- Using Git to manage code in a collaborative environment.
+- Understanding Git branches and handling merge conflicts.
+- Performing pull requests to contribute to a shared repository.
+
+The aim was to validate our understanding of Git and our ability to use it effectively within a team.
+
+## Technologies Used
+
+- **HTML** for the structure of the website.
+- **CSS** for the styling and layout.
+- **Git** for version control and collaboration.
+
+## License
+
+This project is open-source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
